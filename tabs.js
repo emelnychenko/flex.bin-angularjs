@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    var $bin = angular.module('flex.bin');
+    var $bin = angular.module('flex.bin', []);
 
     $bin.service('fx-tab', ['$window', function($window) {
         var $self = this;
