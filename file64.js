@@ -166,6 +166,8 @@
 
                             if ($call) $call();
                         }
+                        
+                        $element.val('');
                     });
 
                     $timeout(function() {
