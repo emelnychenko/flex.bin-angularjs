@@ -1,7 +1,7 @@
 (function() {
     "use strict"
 
-    angular.module('flex.bin', []).directive('fxFile64', ['$q', '$timeout', function($q, $timeout) {
+    angular.module('flex.bin.file64', []).directive('fxFile64', ['$q', '$timeout', function($q, $timeout) {
         return {
             restrict: 'A',
             require: 'ngModel',
