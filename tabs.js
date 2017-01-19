@@ -39,6 +39,8 @@
                 angular.element(
                     element
                 ).show();
+            
+            location.hash = name;
         };
 
         angular.element(window).ready(function() {
