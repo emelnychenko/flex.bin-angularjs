@@ -44,10 +44,6 @@
         };
 
         angular.element(window).ready(function() {
-            // console.log(
-            //     document.querySelectorAll('[fx-tab]')
-            // );
-
             for (var space in tabs) {
                 if (tabs[space].indexOf(hash) !== -1) {
                     var element = document.querySelector(
